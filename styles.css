@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+
+.sales {
+    flex-direction: column;
+    display: flex;
+    justify-content: end;
+}
+
+.sales-text {
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-self: end;
+    align-self: flex-end;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: 600px;
+    min-width: 300px;
+    width: 500px;
+    height: 100vh;
+
+    
+}
+
+.sign-up-form {
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    background-color: white;
+    align-self: center;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
