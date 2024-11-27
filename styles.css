@@ -1,7 +1,14 @@
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
 body {
     display: flex;
     flex-direction: row;
     background-color: whitesmoke;
+    margin: 0px;
 }
 
 li {
@@ -9,16 +16,28 @@ li {
     flex-direction: column;
 }
 
+.footer {
+    flex-shrink: 2;
+    flex-grow: 2;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+}
+
+.form-container {
+    align-self: center;
+}
+
 .main {
     display: flex;
     flex-direction: column;
-    justify-content: stretch;
 }
 
 .sales {
     flex-direction: column;
     display: flex;
     justify-content: end;
+    flex-grow: 1.3;
 }
 
 .sales-text {
@@ -38,8 +57,6 @@ li {
     min-width: 300px;
     width: 500px;
     height: 100vh;
-
-    
 }
 
 .sign-up-form {
@@ -47,7 +64,6 @@ li {
     justify-content: left;
     flex-direction: row;
     background-color: white;
-    align-self: center;
 }
 
 .title {
