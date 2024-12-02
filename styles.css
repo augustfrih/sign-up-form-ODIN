@@ -147,8 +147,8 @@ li {
     align-self: center;
     width: 100%;
     height: 50px;
-    background-color: black;
-    opacity: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    
     color: #fff;
     font-size: larger;
     text-align: center;
@@ -156,6 +156,7 @@ li {
 .title-text {
     text-align: center;
     margin: auto;
+    opacity: 1.0;
 }
 
 
